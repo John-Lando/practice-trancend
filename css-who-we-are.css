@@ -1,0 +1,65 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 4px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(153, 162, 175);
+}
+
+
+.home, .contact, .who, .consulting {
+  background-color: rgb(0, 0, 153);
+  padding-bottom: 2.5px;
+}
+
+.body {
+  background-color: rgb(204, 204, 204);
+}
+
+.header1 {
+  font-size: 45px;
+  display: inline-block;
+  color: rgb(0, 0, 153);
+  margin-top: 7px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.image-set-up {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px ;
+}
+
+.image-container {
+  height: 400px;
+  display: flex;
+
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text-container {
+  width: 500px;
+  height: 400px;
+}
+
+.textcut {
+  margin: 0;
+  margin-top: -20px;
+  text-align: center;
+}
